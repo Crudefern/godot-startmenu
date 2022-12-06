@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Exit.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Exit" type="Button" parent="."]
+margin_left = 14.0
+margin_top = 13.0
+margin_right = 50.0
+margin_bottom = 33.0
+text = "Exit"
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 287.0
+margin_top = 246.0
+margin_right = 653.0
+margin_bottom = 277.0
+text = "This is sample.tscn
+Set the scene under \"Script Variables\" on the start button"
+
+[connection signal="pressed" from="Exit" to="Exit" method="_on_Exit_pressed"]
