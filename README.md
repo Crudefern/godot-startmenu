@@ -6,3 +6,5 @@ You can also use it to figure out how to make your own original start menu.
 
 StartMenu.tscn is the actual menu while sample.tscn is the scene that will be loaded by pressing start.
 Replace sample.tscn under "Script Variables" in the inspector (select the button first) than you can delete sample.tscn
+
+(this is more of a test of git/github than something meant to be useful)
